@@ -1,6 +1,6 @@
 import asyncio
 from playwright.async_api import async_playwright
-from src.exporter import export_to_csv
+from exporter import export_to_csv
 
 URL = "https://quotes.toscrape.com/"
 
